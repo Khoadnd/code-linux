@@ -1,0 +1,15 @@
+/home/khoadnd/code/c#/vcl/bin/Debug/net6.0/vcl
+/home/khoadnd/code/c#/vcl/bin/Debug/net6.0/vcl.deps.json
+/home/khoadnd/code/c#/vcl/bin/Debug/net6.0/vcl.runtimeconfig.json
+/home/khoadnd/code/c#/vcl/bin/Debug/net6.0/vcl.dll
+/home/khoadnd/code/c#/vcl/bin/Debug/net6.0/vcl.pdb
+/home/khoadnd/code/c#/vcl/obj/Debug/net6.0/vcl.csproj.AssemblyReference.cache
+/home/khoadnd/code/c#/vcl/obj/Debug/net6.0/vcl.GeneratedMSBuildEditorConfig.editorconfig
+/home/khoadnd/code/c#/vcl/obj/Debug/net6.0/vcl.AssemblyInfoInputs.cache
+/home/khoadnd/code/c#/vcl/obj/Debug/net6.0/vcl.AssemblyInfo.cs
+/home/khoadnd/code/c#/vcl/obj/Debug/net6.0/vcl.csproj.CoreCompileInputs.cache
+/home/khoadnd/code/c#/vcl/obj/Debug/net6.0/vcl.dll
+/home/khoadnd/code/c#/vcl/obj/Debug/net6.0/refint/vcl.dll
+/home/khoadnd/code/c#/vcl/obj/Debug/net6.0/vcl.pdb
+/home/khoadnd/code/c#/vcl/obj/Debug/net6.0/vcl.genruntimeconfig.cache
+/home/khoadnd/code/c#/vcl/obj/Debug/net6.0/ref/vcl.dll
