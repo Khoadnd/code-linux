@@ -89,7 +89,7 @@ void Choice2() {
   switch (choice) {
 
   case 1: {
-    std::cout << "Secret readed in file cypher.txt, decoded message in "
+    std::cout << "Secret readed in file secret.txt, decrypted message in "
                  "decrypted.txt\n";
 
     fs.open("secret.txt", std::fstream::in);
@@ -114,7 +114,11 @@ void Choice2() {
     secret = ss.str();
 
     fs.open("decrypted.txt", std::fstream::out);
-    fs << Decrypt(secret, key);
+    std::string decryptedMSG = Decrypt(secret, key);
+    std::cout << "Decrypted message using key " << key
+              << " is: " << decryptedMSG;
+    std::cout << "\nThe decrypted message are stored in decrypted.txt";
+    fs << decryptedMSG;
     fs.close();
 
   } break;

@@ -54,6 +54,14 @@
         "cinttypes": "cpp",
         "compare": "cpp",
         "concepts": "cpp",
-        "ranges": "cpp"
+        "ranges": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "condition_variable": "cpp",
+        "ratio": "cpp",
+        "regex": "cpp",
+        "shared_mutex": "cpp",
+        "stop_token": "cpp",
+        "set": "cpp"
     }
 }

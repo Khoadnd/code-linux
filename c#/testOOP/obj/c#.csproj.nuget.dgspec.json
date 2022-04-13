@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/khoadnd/code/c#/testOOP/c#.csproj": {}
+    "/home/khoadnd/code-linux/c#/testOOP/c#.csproj": {}
   },
   "projects": {
-    "/home/khoadnd/code/c#/testOOP/c#.csproj": {
+    "/home/khoadnd/code-linux/c#/testOOP/c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/khoadnd/code/c#/testOOP/c#.csproj",
+        "projectUniqueName": "/home/khoadnd/code-linux/c#/testOOP/c#.csproj",
         "projectName": "c#",
-        "projectPath": "/home/khoadnd/code/c#/testOOP/c#.csproj",
+        "projectPath": "/home/khoadnd/code-linux/c#/testOOP/c#.csproj",
         "packagesPath": "/home/khoadnd/.nuget/packages/",
-        "outputPath": "/home/khoadnd/code/c#/testOOP/obj/",
+        "outputPath": "/home/khoadnd/code-linux/c#/testOOP/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/khoadnd/.nuget/NuGet/NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

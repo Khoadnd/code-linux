@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AUW+sNeRxxpnJdErqlVKU4gnHgY73IncNFeIVTxsvR04FFhf1rD+5Mb9cWxIma4oIclIo9PRyHDMLcl740t/vw==",
+  "dgSpecHash": "qzbHOJZu48tjf/ONK/fKRfEhPZcY57P3fKXqAscW2MvA6GTEaAwfvyCEJCHZZcdw+YIoYOYIvmb6gjDE2IawDg==",
   "success": true,
-  "projectFilePath": "/home/khoadnd/code/c#/testOOP/c#.csproj",
+  "projectFilePath": "/home/khoadnd/code-linux/c#/testOOP/c#.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,19 +1,45 @@
 #include <iostream>
 #include <string>
 
-std::string Encrypt(const std::string, const std::string);
-std::string Decrypt(const std::string, const std::string);
+const std::string cMenu = (std::string) "1. Encrypt\n2. Decrypt\n3. Exit\n";
 
-const std::string plaintext = "DoanNguyenDangKhoa";
-const std::string key = "WTFWTFWTFWTFWTFWTF";
+const std::string Encrypt(const std::string, const std::string);
+const std::string Decrypt(const std::string, const std::string);
 
 int main() {
-  std::cout << Encrypt(plaintext, key) << "\n";
-  std::cout << Decrypt(Encrypt(plaintext, key), key);
+  int choice = 0;
+  std::cout << cMenu;
+  std::cin >> choice;
+  std::cin.ignore();
+  switch (choice) {
+  case 1: {
+    std::string plaintext;
+    std::string key;
+    std::cout << "Enter plaintext: ";
+    std::cin >> plaintext;
+    std::cout << "Enter key: ";
+    std::cin >> key;
+    std::cout << "Encrypted: " << Encrypt(plaintext, key) << std::endl;
+  } break;
+
+  case 2: {
+    std::string ciphertext;
+    std::string key;
+    std::cout << "Enter ciphertext: ";
+    std::cin >> ciphertext;
+    std::cout << "Enter key: ";
+    std::cin >> key;
+    std::cout << "Decrypted: " << Decrypt(ciphertext, key) << std::endl;
+  } break;
+
+  default:
+    break;
+  }
   return 0;
 }
 
-std::string Encrypt(const std::string _plainttext, const std::string _key) {
+const std::string Encrypt(const std::string _plainttext,
+                          const std::string _key) {
   std::string ciphertext = "";
   std::string plainttext = _plainttext;
   std::string key = _key;
@@ -32,7 +58,7 @@ std::string Encrypt(const std::string _plainttext, const std::string _key) {
   return ciphertext;
 }
 
-std::string Decrypt(const std::string _secret, const std::string _key) {
+const std::string Decrypt(const std::string _secret, const std::string _key) {
   std::string plaintext = "";
   std::string secret = _secret;
   std::string key = _key;
@@ -50,5 +76,3 @@ std::string Decrypt(const std::string _secret, const std::string _key) {
 
   return plaintext;
 }
-
-std::string Decrypt(std::string secret) { return {}; }
