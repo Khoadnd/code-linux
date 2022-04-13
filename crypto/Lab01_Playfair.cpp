@@ -119,8 +119,8 @@ const std::string Encrypt(const std::string _plaintext,
 
     // same row
     if ((int)(pos1 / 5) == (int)(pos2 / 5)) {
-      result += key_matrix[(((int)pos1 / 5) * 5) + (pos1 + 1) % 5];
-      result += key_matrix[(((int)pos2 / 5) * 5) + (pos2 + 1) % 5];
+      result += key_matrix[((int)(pos1 / 5) * 5) + (pos1 + 1) % 5];
+      result += key_matrix[((int)(pos2 / 5) * 5) + (pos2 + 1) % 5];
       continue;
     }
 
@@ -156,8 +156,8 @@ const std::string Decrypt(const std::string _secret, const std::string _key) {
 
     // same row
     if ((int)(pos1 / 5) == (int)(pos2 / 5)) {
-      result += key_matrix[(((int)pos1 / 5) * 5) + (pos1 - 1) % 5];
-      result += key_matrix[(((int)pos2 / 5) * 5) + (pos2 - 1) % 5];
+      result += key_matrix[((int)(pos1 / 5) * 5) + (pos1 - 1) % 5];
+      result += key_matrix[((int)(pos2 / 5) * 5) + (pos2 - 1) % 5];
       continue;
     }
 
