@@ -84,17 +84,28 @@ const std::string Divide(std::string _s) {
   return result;
 }
 
+/**
+ * @brief Gen 5x5 key matrix, matrix duoc bieu dien duoi dang mang 1 chieu
+ *
+ * @param _key
+ * @return const std::vector<char>
+ */
 const std::vector<char> gen_key(std::string _key) {
   std::vector<char> key_matrix;
 
+  // Them key vao key_matrix
   std::for_each(_key.begin(), _key.end(),
                 [&key_matrix](char &c) { key_matrix.push_back(c); });
 
+  // Them bang chu cai vao matrix
   key_matrix.insert(key_matrix.end(), _Alphabet.begin(), _Alphabet.end());
 
+  // xoa cac ky tu lap lai
   std::remove_if(
       key_matrix.begin() + _key.length(), key_matrix.end(),
       [&_key](char &c) { return _key.find(c) != std::string::npos; });
+
+  // resize 5x5
   key_matrix.resize(25);
   return key_matrix;
 }
